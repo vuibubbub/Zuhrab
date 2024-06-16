@@ -1,0 +1,125 @@
+nav{
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    display: flex;
+}
+.navbar{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar_logo h2{
+    margin: 0;
+    display: flex;
+}
+.nav_link{
+    font-family:'Open Sans', sans-serif ;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav_item{
+    margin-left: 35px;
+    padding: 5px;
+    text-transform: capitalize;
+    display: flex;
+}
+.nav_list{
+    display: flex;
+}
+.contact_us{
+    background-image: url(xaf1.jpg);
+    background-size: cover;
+    background-position: center 30%;
+    position: relative;
+    z-index: 1;
+    padding: 190px 0;
+    }
+    .contact_us::before{
+        content: '';
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(254, 249, 249, 0.6);
+    }
+    #contact_us_title{
+        color: #181111;
+        text-align: center;
+    }
+    .contacts{
+        display: flex;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    img.contact_icon{
+        width: 270px;
+        height: 350px;
+       background: y;
+    }
+    .contact_block{
+        height: 270px;
+        width: 270px;
+    }
+    .contact_icon_background{
+        height: 106px;
+        width: 106px;
+        background-color: #dfdfe0;
+        border-radius: 100px;
+      
+    float: l;
+    }
+    .contact_block_info{
+        margin-top: 36px;
+        font-size: 20px;
+        color: #1d0909;
+        line-height: 28px;
+    }
+    .contact_us_form{
+        display: grid;
+        grid-template-rows: 85px 325px 85px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 50px;
+    }
+    .contact_us_form textarea{
+        padding: 25px;
+        outline: 0px;
+    }
+    .contact_us_input{
+        border-radius: 15px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .contact_us_send_button{
+        background-color: #190f0f;
+        color: #fdeeee;
+        width: 100%;
+    }
+    .contact_us_send_button:hover{
+        background-color: rgb(22, 3, 3);
+    }
+    .contact_us_send_button:active{
+        background-color: rgb(18, 11, 11);
+    }
+    #contact_block_1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    #contact_block_2{
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    #contact_block_3{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    #contact_block_4{
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
